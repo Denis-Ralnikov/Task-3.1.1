@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add User</title>
+</head>
+<body>
+    <header>Add new User</header>
+<main>
+    <form action="/addUser" method="post">
+        Name <input type="text" name="name">
+        <br>
+        Age <input type="number" name="age">
+        <br>
+        <button type="submit">Create User</button>
+    </form>
+</main>
+</body>
+</html>
